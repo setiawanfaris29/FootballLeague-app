@@ -1,9 +1,9 @@
-package com.example.footbalmatch
+package com.example.footbalmatch.main
 
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
+import com.example.footbalmatch.R
 import com.google.android.material.tabs.TabLayout
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val ViewPager =findViewById<ViewPager>(R.id.viewPager)
 
-        ViewPager.adapter = ViewPagerAdapter(this,supportFragmentManager)
+        ViewPager.adapter = FragmentAdapter(this, supportFragmentManager)
         TabLayout.setupWithViewPager(viewPager)
     }
 }

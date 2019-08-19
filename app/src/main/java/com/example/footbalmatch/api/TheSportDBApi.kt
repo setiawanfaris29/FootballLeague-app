@@ -1,4 +1,4 @@
-package com.example.footbalmatch.lastMatch
+package com.example.footbalmatch.api
 
 import com.example.footbalmatch.BuildConfig
 

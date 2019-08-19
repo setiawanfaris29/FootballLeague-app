@@ -1,12 +1,14 @@
-package com.example.footbalmatch
+package com.example.footbalmatch.main
 
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.example.footbalmatch.lastMatch.LastMatch
+import com.example.footbalmatch.R
+import com.example.footbalmatch.lastmatch.LastMatch
+import com.example.footbalmatch.nextmatch.NextMatch
 
-class ViewPagerAdapter(context: Context,fm: FragmentManager) : FragmentPagerAdapter(fm) {
+class FragmentAdapter(context: Context, fm: FragmentManager) : FragmentPagerAdapter(fm) {
     private val context: Context? = context
 
     private val pages = listOf(

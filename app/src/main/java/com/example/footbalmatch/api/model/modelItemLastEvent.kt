@@ -1,8 +1,8 @@
-package com.example.footbalmatch.lastMatch
+package com.example.footbalmatch.api.model
 
 import com.google.gson.annotations.SerializedName
 
-class ItemLatsEvent (
+class modelItemLastEvent (
     @SerializedName("idEvent")
     var eventId : String? = null,
 

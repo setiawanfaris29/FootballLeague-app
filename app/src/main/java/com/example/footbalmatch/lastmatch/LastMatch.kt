@@ -1,4 +1,4 @@
-package com.example.footbalmatch
+package com.example.footbalmatch.lastmatch
 
 
 import android.os.Bundle
@@ -18,14 +18,13 @@ private const val ARG_PARAM2 = "param2"
  * A simple [Fragment] subclass.
  *
  */
-class NextMatch : Fragment() {
+class LastMatch : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_next_match, container, false)
+        return inflater.inflate(R.layout.fragment_last_match, container, false)
     }
 
 
